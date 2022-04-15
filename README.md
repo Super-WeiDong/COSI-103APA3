@@ -3,7 +3,7 @@
 This is PA03 project of our team
 
 # Team Member
-Weidong Wang<br/>Jingqian Cheng<br/>Jian He<br/>Katherine
+Weidong Wang<br/>Jingqian Cheng<br/>Jian He<br/>Katherine Cheng
 
 ## Installation
 Download the project from github and download nodejs and npm from https://nodejs.org
