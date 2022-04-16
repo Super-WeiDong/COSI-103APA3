@@ -5,6 +5,10 @@ This is PA03 project of our team
 # Team Member
 Weidong Wang<br/>Jingqian Cheng<br/>Jian He<br/>Katherine Cheng
 
+# Link of movie
+Weidong Wang:<br/>
+https://drive.google.com/file/d/1dP4FMZIkhB4wJ_JGor8Awh5N2NnPgERu/view?usp=sharing <br/>
+
 ## Installation
 Download the project from github and download nodejs and npm from https://nodejs.org
 and cd into the folder
