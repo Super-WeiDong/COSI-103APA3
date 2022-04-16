@@ -1,7 +1,9 @@
 # CS103a PA3
 
 This is PA03 project of our team
-team member: Weidong Wang, Jingqian Cheng, Jian He, Katherine
+
+# Team Member
+Weidong Wang<br/>Jingqian Cheng<br/>Jian He<br/>Katherine Cheng
 
 ## Installation
 Download the project from github and download nodejs and npm from https://nodejs.org
