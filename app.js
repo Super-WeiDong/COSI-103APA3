@@ -289,6 +289,21 @@ app.post(
   }
 );
 
+// written by Katherine Cheng
+app.post(
+  '/courses/byCoursenum',
+  // show list of courses with a given coursenum
+  async (req, res, next) => {
+    const {coursenum} = req.body;
+    const courses = await Course.find({
+      coursenum: coursenum,
+    }).sort({term: 1, num: 1, section: 1});
+    console.log(coursenum)
+    res.locals.courses = courses;
+    res.render('courselist');
+  }
+);
+
 app.get(
   '/courses/show/:courseId',
   // show all info about a course given its courseid
