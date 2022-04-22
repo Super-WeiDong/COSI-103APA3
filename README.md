@@ -12,6 +12,8 @@ Jian He: <br/>
 https://drive.google.com/file/d/1dUpAyIpWik2iBKWSP-CgKTD5k5ZcfhIR/view?usp=sharing <br/>
 Katherine Cheng: <br/>
 https://drive.google.com/file/d/1NVleYlew8e1toVQA8HYNHMD-kt9cwWBE/view?usp=sharing
+Jingqian Cheng: <br/>
+https://drive.google.com/file/d/1xBJsA0Ql3ZBebdNTkWVz9l3QzQMRZaHX/view?usp=sharing
 
 ## Installation
 Download the project from github and download nodejs and npm from https://nodejs.org
