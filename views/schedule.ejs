@@ -44,6 +44,11 @@
              <div>
                 <strong>Enrolled:</strong><%=course.enrolled %> <strong>Limit:</strong><%=course.limit || 999 %> <strong>Waitlist:</strong><%= course.waiting %>
              </div>
+             <!-- by Katherine Cheng -->
+             <div>
+                <strong>Course status: </strong> <%= course.status_text %>
+              </div>
+              <!-- end -->
              <div>
                <strong>Semester: </strong> <%= semester[term%10] %>
              </div>
