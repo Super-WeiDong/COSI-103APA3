@@ -304,6 +304,35 @@ app.post(
   }
 );
 
+// written by Jingqian Cheng
+app.post(
+  '/courses/bySemester',
+  // show list of COSI courses with a given semester
+  async (req, res, next) => {
+    const {semester} = req.body
+    console.log(semester)
+    let term;
+    if (semester == 'Fall 2020') {
+      term = 1203
+    } else if (semester == 'Spring 2021') {
+      term = 1211
+    } else if (semester == 'Summer 2021') {
+      term = 1212
+    } else {
+      term = 1200
+    }
+    const courses = await Course.find({
+      subject: 'COSI',
+      term: term.toString(),
+      independent_study: false,
+    });
+    
+    console.log(term)
+    res.locals.courses = courses;
+    res.render('courselist');
+  }
+);
+
 app.get(
   '/courses/show/:courseId',
   // show all info about a course given its courseid
